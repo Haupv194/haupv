@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phan Hậu Review - Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00; /* Màu vàng */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #87CEEB; /* Màu xanh da trời */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #ffcc00;
+        }
+        .content {
+            padding: 20px;
+        }
+        .blog-post {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #87CEEB; /* Màu xanh da trời */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phan Hậu Review</h1>
+        <p>Chào mừng bạn đến với blog của tôi!</p>
+    </header>
+    
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Blog</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <div class="content">
+        <div class="blog-post">
+            <h2>Bài viết mới nhất</h2>
+            <p>Đây là nội dung bài viết đầu tiên trên blog của tôi. Chào mừng bạn đến với không gian chia sẻ kiến thức và những đánh giá thú vị!</p>
+        </div>
+
+        <div class="blog-post">
+            <h2>Bài viết thứ hai</h2>
+            <p>Bài viết này sẽ chia sẻ những điều thú vị về chủ đề công nghệ. Hãy theo dõi để cập nhật thêm nhiều bài viết hấp dẫn.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Phan Hậu Review. Tất cả quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
